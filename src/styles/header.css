@@ -1,0 +1,41 @@
+.signout {
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 0;
+  width: 9rem;
+  color: #212121;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  background-color: transparent;
+  padding: 0;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+.signout:hover,
+.signout:active,
+.signout:focus,
+.signout:checked {
+  color: #212121;
+  background-color: #f2eee7;
+  border-color: transparent;
+  box-shadow: none;
+  border: none;
+}
+.btn-check:checked + .btn:focus,
+.btn-check:active + .btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.show:focus {
+  box-shadow: none;
+}
+
+.text {
+  color: rgb(24, 181, 209);
+  text-align: center;
+  font-size: 40px;
+}

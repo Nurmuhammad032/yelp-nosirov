@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+body {
+  /* background-color: rgb(208, 213, 209); */
+  background: #1e1919;
+  font-family: "Fasthand", cursive;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.text2 {
+  color: #eeee;
+  font-size: 40px;
+  text-align: center;
+}
+
+.create {
+  background-color: white;
+  border: 1px solid transparent;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.create:hover {
+  background-color: transparent;
+  border-color: #eee;
+  color: white;
+  transition: all 0.2s;
+}
+
+.input {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
