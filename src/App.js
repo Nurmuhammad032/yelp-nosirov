@@ -11,9 +11,7 @@ import Form from "react-bootstrap/Form";
 import Row from "react-bootstrap/Row";
 import "bootstrap/dist/css/bootstrap.css";
 
-import {
-  createRestaurant as createRestaurantMutation,
-} from "./graphql/allData";
+import { createRestaurant as createRestaurantMutation } from "./graphql/allData";
 import YelpNavbar from "./components/Header";
 import "../src/styles/app.css";
 
